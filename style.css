@@ -1,0 +1,82 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* for large device product dropdown-product btn*/
+
+.dropbtn {
+  color: rgb(93, 104, 130);
+  padding: 16px 0px 16px 0px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display:  inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 10px 2px 10px;
+  text-decoration: none;
+  display: table-cell;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color:rgb(201, 201, 201);}
+
+
+/* for mobile product dropdown-product btn*/
+.dropbtnn {
+  color: rgb(93, 104, 130);
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+
+.dropdownn {
+  position: relative;
+  display:  inline;
+}
+
+.dropdownn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdownn-content a {
+  color: black;
+  padding: 2px 10px 2px 10px;
+  text-decoration: none;
+  display: flow-root;
+}
+
+.dropdownn-content a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.dropdownn:hover .dropdownn-content {display: block;}
+
+.dropdownn:hover .dropbtnn {color:rgb(201, 201, 201);}
